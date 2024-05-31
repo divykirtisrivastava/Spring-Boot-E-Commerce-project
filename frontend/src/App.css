@@ -1,0 +1,49 @@
+#card{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+#incard{
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+}
+
+/* styles.css or your existing styles */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 2px 12px;
+  }
+  
+  .tooltip .tooltip-text {
+
+    width: max-content;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 0px 8px;
+    position: absolute;
+    z-index: 999;
+    bottom: 62%; /* Position the tooltip above the element */
+    left: 80%;
+    transform: translateX(-50%);
+    opacity: 1;
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  
+  /* .tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  } */
+  
+  #cart{
+    margin-top:  40px;
+  }
